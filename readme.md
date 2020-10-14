@@ -1,13 +1,13 @@
 
-<h2 align = "center"><strong> dsfjkl </strong></h2>
+<h2 align = "center"><strong> Read Me Generator </strong></h2>
     
-<p align = "center"> dskfj
+<p align = "center"> An easy Read Me generator so that you can spend more time coding and less time on the readme.md
 
-<a href= "https://github.com/ + sd,fn + / + ,mxnc"> Explore the Repo </a>
+<a href= "https://github.com/ + slogreco + / + read-me-generator"> Explore the Repo </a>
 
-<a href= "https:// + sd,fn + .github.io/ + ,mxnc"> View Deployment </a>
+<a href= "https://drive.google.com/file/d/1ckJp9L-oUqtIcll9YQBk1WbVmv_4FHJO/view"> View Video Demonstration </a>
 
-<a href="https://github.com/ + sd,fn + / + {answers.repo_name} + /issues">Report Bug/Request Features</a>
+<a href="https://github.com/ + slogreco + / + {answers.repo_name} + /issues">Report Bug/Request Features</a>
 
 </p>
 
@@ -24,7 +24,7 @@
 
 1. Clone the repo
 
-    git clone https://github.com/sd,fn/,mxnc.git
+    git clone https://github.com/slogreco/read-me-generator.git
 
 2. Install NPM packages
 
@@ -32,7 +32,7 @@
 
 ## Usage
 
-<img src= "undefined" alt = "screenshot">
+<img src="/assets/image.jpg" alt = "screenshot">
 
 
 ## Contributing
@@ -58,7 +58,7 @@ Contributions are what make the open source community an amazing place to be lea
 
 MIT License
 
-Copyright (c) ,mxcn mncx,z
+Copyright (c) 2020 Shoshanah Lo Greco
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
