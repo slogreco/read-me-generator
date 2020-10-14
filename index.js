@@ -49,13 +49,13 @@ function generateReadMe(answers) {
     return `
 <h2 align = "center"><strong> ${answers.title} </strong></h2>
     
-    <p align = "center"> ${answers.description}
+<p align = "center"> ${answers.description}
 
-    <a href= "https://github.com/ + ${answers.username} + / + ${answers.repo_name}"> Explore the Repo </a>
+<a href= "https://github.com/ + ${answers.username} + / + ${answers.repo_name}"> Explore the Repo </a>
 
-    <a href= "https:// + ${answers.username} + .github.io/ + ${answers.repo_name}"> View Deployment </a>
+<a href= "https:// + ${answers.username} + .github.io/ + ${answers.repo_name}"> View Deployment </a>
 
-    <a href="https://github.com/ + ${answers.username} + / + {answers.repo_name} + /issues">Report Bug/Request Features</a>
+<a href="https://github.com/ + ${answers.username} + / + {answers.repo_name} + /issues">Report Bug/Request Features</a>
 
 </p>
 
@@ -88,9 +88,9 @@ function generateReadMe(answers) {
 Contributions are what make the open source community an amazing place to be learn, create, and inspire. All contributions you would like to make are greatly appreciated.
 
 1. Fork the Project
-2. Create your Feature Branch (`git checkout - b feature / NewFeature`)
-3. Commit your Changes (`git commit - m 'Add some NewFeature'`)
-4. Push to the Branch (`git push origin feature / NewFeature`)
+2. Create your Feature Branch (git checkout - b feature / NewFeature)
+3. Commit your Changes (git commit - m 'Add some NewFeature')
+4. Push to the Branch (git push origin feature / NewFeature)
 5. Open a Pull Request
 
 
@@ -128,6 +128,19 @@ SOFTWARE.
 
     `
 
+}
+
+async function init() {
+    console.log("hi")
+    try {
+    const answers = await promptUser();
+    const readMe = generateReadMe(answers);
+    await writeFileAsync("README.md", readMe);
+    console.log("Sucess!");
+    }
+    catch(err) {
+        console.log(err);
+    }
 }
 
 
