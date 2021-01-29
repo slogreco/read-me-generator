@@ -55,7 +55,7 @@ Contributions are what make the open source community an amazing place to be lea
 
 ## Questions
 
-[Send me an Email:](mailto:${data.email}) 
+[Send me an Email](mailto:${data.email}) 
 
 [Reach out to me on Github](https://github.com/${data.username})
 

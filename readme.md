@@ -59,7 +59,7 @@ Contributions are what make the open source community an amazing place to be lea
 
 ## Questions
 
-[Send me an Email:](mailto:shoshanahlogreco@gmail.com) 
+[Send me an Email](mailto:shoshanahlogreco@gmail.com) 
 
 [Reach out to me on Github](https://github.com/slogreco)
 
